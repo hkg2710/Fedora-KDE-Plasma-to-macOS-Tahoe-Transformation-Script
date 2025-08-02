@@ -40,9 +40,21 @@ Kịch bản này sẽ tự động thực hiện các tác vụ sau:
 -   **Khuyến nghị:** Chạy trên một hệ thống mới cài đặt để tránh xung đột với các tùy chỉnh trước đó.
 -   **Kết nối Internet** để tải các gói cần thiết.
 
-## ⚙️ Hướng Dẫn Cài Đặt và Sử Dụng
+## ⚙️ Hướng Dẫn Cài Đặt
 
-Quy trình cực kỳ đơn giản. Chỉ cần mở **Konsole** và làm theo các bước sau:
+Bạn có thể chọn một trong hai cách sau để cài đặt.
+
+### Cách 1: Cài Đặt Nhanh (Lệnh Duy Nhất)
+
+Cách này phù hợp cho những ai muốn cài đặt nhanh chóng. Mở Konsole và dán lệnh duy nhất dưới đây:
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/hkg2710/Fedora-KDE-Plasma-to-macOS-Tahoe-Transformation-Script/main/macos_makeover.sh)"
+```
+
+### Cách 2: Cài Đặt Thủ Công (Khuyến Nghị)
+
+Cách này cho phép bạn xem qua mã nguồn của kịch bản trước khi chạy, đây là một thói quen tốt để đảm bảo an toàn.
 
 1.  **Tải kịch bản về máy:**
     ```bash
@@ -63,7 +75,8 @@ Quy trình cực kỳ đơn giản. Chỉ cần mở **Konsole** và làm theo c
     ```bash
     ./macos_makeover.sh
     ```
-    Kịch bản sẽ yêu cầu mật khẩu `sudo` của bạn để bắt đầu quá trình. Sau khi hoàn tất, nó sẽ nhắc bạn khởi động lại máy.
+
+---
 
 ## 🎨 Các Bước Kích Hoạt Giao Diện (Sau Khi Khởi Động Lại)
 
